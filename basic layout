@@ -1,0 +1,27 @@
+void setup() {
+  size(600, 770); // resolution 
+  i = width/2;               //initialise variable
+} 
+
+int i;                 //declare variable 
+
+void draw() {
+  background(#1AD82E);   //background color/screen
+  fill(#7A7C7B);
+  noStroke();
+  rect(0, 0, 600, 55);            //bad guy floor 
+  rect(0, 715, 600, 55);        //hero guy floor 
+  noFill();
+  stroke(0);
+  fill(#E81010);
+  ellipse(i, 700, 50, 50);      //character hero
+  fill(#835714);
+  ellipse(i, 40, 40, 40);         //bad guy 
+  fill(#242926);
+  rect(i+15, 40, 10, 20);         //bad guy's gun
+  fill(#0238F5);
+  ellipse(200, 750, 20,20);       //pedestrian
+  ellipse(500, 760, 20,20);       //pedestrian 2
+  ellipse(50, 763, 20,20);       //pedestrian 3
+  ellipse(580, 750, 20,20);       //pedestrian 4
+}
