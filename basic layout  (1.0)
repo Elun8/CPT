@@ -1,10 +1,3 @@
-int i;                 //declare variable 
-int a; 
-int b; 
-int c; 
-int d; 
-int e; 
-
 class Gun {                        // making bullets
   float X = mouseX+ 15;
   float Y = 48;
